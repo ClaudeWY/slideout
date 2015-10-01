@@ -21,14 +21,24 @@
     <meta property="twitter:description" content="Slideout.js is a touch slideout navigation menu for your mobile web apps.">
     <meta property="twitter:url" content="https://mango.github.io/slideout">
     <meta property="twitter:image" content="https://mango.github.io/slideout/assets/mango-logo.png">
-    <title>Slideout.js - A touch slideout navigation menu for your mobile web apps.</title>
+    <title>Slideout.js - 为你的移动 Web 应用准备的触摸式导航菜单</title>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?f3ac0b00252947c93a6a2b3f886a6ed7";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+
   </head>
   <body>
 
     <nav id="menu" class="menu">
       <a href="https://github.com/mango/slideout" target="_blank">
         <header class="menu-header">
-          <span class="menu-header-title">View on Github</span>
+          <span class="menu-header-title">在 Github 中查看</span>
         </header>
       </a>
 
@@ -64,12 +74,12 @@
 
       <header class="panel-header">
         <button class="btn-hamburger js-slideout-toggle">
-          <span class="tooltip">Open slideout</span>
+          <span class="tooltip">打开 slideout</span>
         </button>
         <h1 class="title">Slideout.js</h1>
-        <h2 class="subtitle">A touch slideout navigation menu for your mobile web apps.</h2>
+        <h2 class="subtitle">为你的移动 Web 应用准备的触摸式导航菜单</h2>
         <div class="panel-actions">
-          <a href="https://github.com/mango/slideout/releases/" class="btn btn-download">Download</a>
+          <a href="https://github.com/mango/slideout/releases/" class="btn btn-download">下载</a>
           <a href="https://github.com/mango/slideout" target="_blank" class="btn btn-fork">Fork it</a>
         </div>
       </header>
@@ -80,21 +90,21 @@
       </div>
 
       <section class="box">
-        <h2 class="box-title">Features</h2>
+        <h2 class="box-title">特性</h2>
         <div class="box-content">
           <ul>
-            <li>Dependency-free.</li>
-            <li>Simple markup.</li>
-            <li>Native scrolling.</li>
-            <li>Easy customization.</li>
-            <li>CSS transforms &amp; transitions.</li>
-            <li>Just 4 Kb!</li>
+            <li>自由使用</li>
+            <li>标记简单</li>
+            <li>原生滚动</li>
+            <li>易于定制</li>
+            <li>CSS 转换和过渡</li>
+            <li>只有 4Kb！</li>
           </ul>
         </div>
       </section>
 
       <section class="box">
-        <h2 class="box-title">Installation</h2>
+        <h2 class="box-title">安装</h2>
         <div class="box-content">
           <pre>
 $ npm install slideout
@@ -106,9 +116,9 @@ $ component install mango/slideout</pre>
       </section>
 
       <section class="box">
-        <h2 class="box-title">Usage</h2>
+        <h2 class="box-title">使用</h2>
         <div class="box-content">
-          <p>1. First of all, you'll need to have a menu ("#menu") and a main content ("#panel") into your body.</p>
+          <p>1. 首先，你需要创建你的标记。在你的网页中应该有一个菜单（"#menu"）和主要内容（"#panel"）。</p>
           <pre><code class="language-markup">
 &lt;nav id=&quot;menu&quot;&gt;
   &lt;header&gt;
@@ -122,7 +132,7 @@ $ component install mango/slideout</pre>
   &lt;/header&gt;
 &lt;/main&gt;</code></pre>
 
-          <p>2. Add the Slideout.js styles (index.css) in your web application.</p>
+          <p>2. 在你的 Web 应用中添加 Slideout.js 的样式（index.css）。</p>
           <pre><code class="language-css">
 body {
   width: 100%;
@@ -157,7 +167,7 @@ body {
   display: block;
 }</code></pre>
 
-          <p>3. Then you just include Slideout.js and create a new instace with some options:</p>
+          <p>3. 然后你就要引入 Slideout.js 并通过一些选项来创建一个新的实例：</p>
 
           <pre><code class="language-markup">
 &lt;script src=&quot;dist/slideout.min.js&quot;&gt;&lt;/script&gt;
@@ -215,12 +225,6 @@ body {
         aload();
         document.querySelector('.iphone').className += ' shown';
         document.querySelector('.tooltip').className += ' shake';
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-15753373-13', 'auto');
-        ga('send', 'pageview');
       }
     </script>
   </body>
