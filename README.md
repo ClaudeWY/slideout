@@ -1,23 +1,23 @@
 # Slideout.js [![NPM version][npm-image]][npm-link] [![Build status][travis-image]][travis-link] [![devDependency status][devdeps-image]][devdeps-link]
 
-> A touch slideout navigation menu for your mobile web apps.
+> 为你的移动 Web 应用准备的触摸式导航菜单
 
-## Features
+## 特性
 
-- Dependency-free.
-- Simple markup.
-- Native scrolling.
-- Easy customization.
-- CSS transforms & transitions.
-- Just 2 Kb! (min & gzip)
+- 自由使用
+- 标记简单
+- 原生滚动
+- 易于定制
+- CSS 转换和过渡
+- 只有 2 Kb！（min & gzip）
 
 ## Demo
 
-[Check out the demo](https://mango.github.io/slideout/) to see it in action (on your mobile or emulate touches on your browser).
+[点击查看 demo](http://slideout.getmaterialize.com/)（在你的移动设备上或在你的浏览器上模拟触摸）
 
 <img src="https://i.imgur.com/AWgwlVW.gif" alt="Slideout.js demo">
 
-## Installation
+## 安装
 
 Slideout is available on cdnjs
 
