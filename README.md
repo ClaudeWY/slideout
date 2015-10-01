@@ -19,13 +19,13 @@
 
 ## 安装
 
-Slideout is available on cdnjs
+Slideout 在 cdnjs 中可用
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.9/slideout.min.js"></script>
 ```
 
-Also you can use one of many package managers
+你也可以使用一个包管理器
 
     $ npm install slideout
 
@@ -35,11 +35,11 @@ Also you can use one of many package managers
 
     $ component install mango/slideout
 
-## Usage
+## 如何使用
 
-Implementing Slideout.js into your project is easy.
+在你的项目中使用 Slideout.js 非常容易。
 
-First of all, you'll need to create your markup. You should have a menu (`#menu`) and a main content (`#panel`) into your body.
+首先，你需要创建你的标记。在你的网页中应该有一个菜单（`#menu`）和主要内容（`#panel`）。
 
 ```html
 <nav id="menu">
@@ -55,7 +55,7 @@ First of all, you'll need to create your markup. You should have a menu (`#menu`
 </main>
 ```
 
-Add the Slideout.js styles (index.css) in your web application.
+在你的 Web 应用中添加 Slideout.js 的样式（index.css）。
 
 ```css
 body {
@@ -92,7 +92,7 @@ body {
 }
 ```
 
-Then you just include Slideout.js and create a new instance with some options:
+然后你就要引入 Slideout.js 并通过一些选项来创建一个新的实例：
 
 ```html
 <script src="dist/slideout.min.js"></script>
@@ -106,7 +106,7 @@ Then you just include Slideout.js and create a new instance with some options:
 </script>
 ```
 
-#### Full example
+#### 完整示例
 
 ```html
 <!doctype html>
@@ -186,7 +186,7 @@ Then you just include Slideout.js and create a new instance with some options:
 </html>
 ```
 
-## Browser Support
+## 浏览器支持
 
 - Chrome (IOS, Android, desktop)
 - Firefox (Android, desktop)
