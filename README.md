@@ -197,7 +197,7 @@ body {
 ## API
 
 ### Slideout(options)
-Create a new instance of `Slideout`.
+创建一个新的 `Slideout` 实例。
 
 - `options` (Object) - Options to customize a new instance of Slideout.
 - `options.panel` (HTMLElement) - The DOM element that contains all your application content (`.slideout-panel`).
@@ -219,49 +219,49 @@ var slideout = new Slideout({
 ```
 
 ### Slideout.open();
-Opens the slideout menu. It emits `beforeopen` and `open` events.
+打开 slideout 菜单。它发出 `beforeopen` 和 `open` 事件。
 
 ```js
 slideout.open();
 ```
 
 ### Slideout.close();
-Closes the slideout menu. It emits `beforeclose` and `close` events.
+关闭 slideout 菜单。它发出 `beforeclose` 和 `close` 事件。
 
 ```js
 slideout.close();
 ```
 
 ### Slideout.toggle();
-Toggles (open/close) the slideout menu.
+切换 slideout 菜单（打开/关闭状态）。
 
 ```js
 slideout.toggle();
 ```
 
 ### Slideout.isOpen();
-Returns `true` if the slideout is currently open, and `false` if it is closed.
+当 slideout 处于打开状态时返回 `true`，当处于关闭状态时返回 `false`。
 
 ```js
 slideout.isOpen(); // true or false
 ```
 
 ### Slideout.destroy();
-Cleans up the instance so another slideout can be created on the same area.
+清理其他的 slideout 实例使其可以在同一区域再次创建。
 
 ```js
 slideout.destroy();
 ```
 
 ### Slideout.enableTouch();
-Enables opening the slideout via touch events.
+开启通过触摸时间打开 slideout。
 
 ```js
 slideout.enableTouch();
 ```
 
 ### Slideout.disableTouch();
-Disables opening the slideout via touch events.
+禁止通过触摸时间打开 slideout。
 
 ```js
 slideout.disableTouch();
@@ -287,9 +287,9 @@ slideout.off('open', listener);
 slideout.emit('open');
 ```
 
-## Events
+## 事件
 
-An instance of Slideout emits the following events:
+一个 Slideout 实例可以发出以下事件：
 
 - `beforeclose`
 - `close`
@@ -297,7 +297,7 @@ An instance of Slideout emits the following events:
 - `open`
 - `translate`
 
-The slideout emits `translate` event only when it is opening/closing via touch events.
+只有当通过触摸事件将它打开/关闭时，slideout 会发出 `translate` 事件。
 
 ```js
 slideout.on('translate', function(translated) {
@@ -324,7 +324,7 @@ $ npm run hint
 
 ## FAQ
 
-### How to add a toggle button.
+### 如何添加一个切换按钮
 
 ```js
 // vanilla js
@@ -338,16 +338,16 @@ $('.toggle-button').on('click', function() {
 });
 ```
 
-### How to open slideout from right side.
+### 如何从右边打开 slideout
 
-You should define `left: auto` on the class `.slideout-menu`.
+你应该为 `.slideout-menu` 类设置 `left: auto`。
 ```css
 .slideout-menu {
   left: auto;
 }
 ```
 
-Then, use the `side` option with the value `right`.
+然后，设置 `side` 选项的值为 `right`。
 ```js
 var slideout = new Slideout({
   'panel': document.getElementById('content'),
