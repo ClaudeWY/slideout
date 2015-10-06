@@ -199,15 +199,15 @@ body {
 ### Slideout(options)
 创建一个新的 `Slideout` 实例。
 
-- `options` (Object) - Options to customize a new instance of Slideout.
-- `options.panel` (HTMLElement) - The DOM element that contains all your application content (`.slideout-panel`).
-- `options.menu` (HTMLElement) - The DOM element that contains your menu application (`.slideout-menu`).
-- `[options.duration]` (Number) - The time (milliseconds) to open/close the slideout. Default: `300`.
-- `[options.fx]` (String) - The CSS effect to use when animating the opening and closing of the slideout. Default: `ease`.
-- `[options.padding]` (Number) - Default: `256`.
-- `[options.tolerance]` (Number) - Default: `70`.
-- `[options.touch]` (Boolean) - Set this option to false to disable Slideout touch events. Default: `true`.
-- `[options.side]` (String) - The side to open the slideout (`left` or `right`). Default: `left`.
+- `options` (对象) - 一个使用自定义选项的 Slideout 实例。
+- `options.panel` (HTML 元素) - 程序中包含 `.slideout-panel` 的 DOM 元素。
+- `options.menu` (HTML 元素) - 程序中包含 `.slideout-menu` 的 DOM 元素。
+- `[options.duration]` (数字) - 打开/关闭 slideout 的时间（毫秒）。默认：`300`
+- `[options.fx]` (字符串) - 使用动画开启和关闭 slideout 时的 CSS 效果。默认：`ease`
+- `[options.padding]` (数字) - 默认：`256`
+- `[options.tolerance]` (数字) - 默认：`70`
+- `[options.touch]` (布尔值) - 设置此项为 false 可以禁用 Slideout 的触摸事件。默认：`true`
+- `[options.side]` (字符串) - 设置 slideout 从左侧或右侧打开 (`left` 或 `right`)。默认：`left`
 
 ```js
 var slideout = new Slideout({
