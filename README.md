@@ -254,14 +254,14 @@ slideout.destroy();
 ```
 
 ### Slideout.enableTouch();
-开启通过触摸时间打开 slideout。
+开启通过触摸事件打开 slideout。
 
 ```js
 slideout.enableTouch();
 ```
 
 ### Slideout.disableTouch();
-禁止通过触摸时间打开 slideout。
+禁止通过触摸事件打开 slideout。
 
 ```js
 slideout.disableTouch();
